@@ -35,7 +35,7 @@
             // (we sum the MAU in the case where the 30 days spans over two months)
             debugger
             var dauMau = dau.divide(mau.sum()).values();
-            console.log (dauMau)
+            console.log (dauMau.toFixed(2))
             $('<div></div>').appendTo('body').MPChart({ // create chart
               chartType: 'line',
               data: dauMau.toFixed(2)                              // set its data
