@@ -38,7 +38,7 @@
             console.log (dauMau)
             $('<div></div>').appendTo('body').MPChart({ // create chart
               chartType: 'line',
-              data: dauMau                              // set its data
+              data: dauMau.toFixed(2)                              // set its data
             });
           });
         };
