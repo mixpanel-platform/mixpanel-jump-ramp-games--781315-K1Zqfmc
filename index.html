@@ -38,7 +38,7 @@
             console.log ((Math.round(dauMau + 0.00001) * 100) / 100)
             $('<div></div>').appendTo('body').MPChart({ // create chart
               chartType: 'line',
-              data: dauMau.toFixed(2)                              // set its data
+              data: dauMau                             // set its data
             });
           });
         };
